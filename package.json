@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-boilerplate-basic",
+  "version": "1.0.0",
+  "description": "A basic nodejs boilerplate to start your project",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --inspect"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "config": "^3.3.9",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "react-hot-toast": "^2.5.2",
+    "slugify": "^1.6.6"
+  }
+}
